@@ -1,2 +1,6 @@
-function saludar() { return 'Hola Mundo'; }
-function validarEmail(email) { return email.includes('@'); }
+function sumar(a, b) {
+  return a + b;
+}
+
+let resultado = sumar(5, 3);
+console.log("La suma es:", resultado);
